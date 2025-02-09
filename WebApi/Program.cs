@@ -19,7 +19,7 @@ namespace WebApi
 			builder.Services.AddEndpointsApiExplorer();
 			builder.Services.AddSwaggerGen(c =>
 			{
-				c.SwaggerDoc("v1", new OpenApiInfo() { Title = "PortfolioApi", Version = "v1", Description = "Swagger client" });
+				c.SwaggerDoc("v1", new OpenApiInfo() { Title = "MovieApi", Version = "v1", Description = "Swagger client" });
 
 				c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
 				{
